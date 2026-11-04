@@ -1,8 +1,7 @@
 name: Test on Every Push to Master
 on:
   push:
-    branches:
-      - master
+    branches: [ "master" ]
 
 jobs:
   test:
